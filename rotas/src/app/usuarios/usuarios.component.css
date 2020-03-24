@@ -1,0 +1,22 @@
+h2 {
+  margin: 10px 10px;
+}
+
+.mat-divider {
+  color: black;
+  border-top-color: rgba(0, 0, 0, 0.413);
+  margin: 0px 10px 0px 10px;
+}
+
+.mat-list-item {
+  color: black;
+}
+
+mat-list-item:hover {
+  background-color: rgba(137, 43, 226, 0.338);
+}
+
+div > .containerDiv {
+  height: 500px;
+  overflow: auto;
+}

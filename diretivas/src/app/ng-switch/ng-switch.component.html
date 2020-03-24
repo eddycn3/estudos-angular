@@ -1,0 +1,21 @@
+<div class="mat-elevation-z6">
+  <nav class="navbar-header">
+    <a mat-button (click)="(inicio)">
+      Inicio
+    </a>
+
+    <a mat-button (click)="aba = 'page1'">
+      Page 1
+    </a>
+
+    <a mat-button (click)="aba = 'page2'">
+      Page 2
+    </a>
+  </nav>
+</div>
+
+<div [ngSwitch]="aba">
+  <p *ngSwitchCase="'page1'">PAGINA 1</p>
+  <p *ngSwitchCase="'page2'">PAGINA 2</p>
+  <p *ngSwitchDefault>Início</p>
+</div>

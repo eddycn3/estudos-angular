@@ -1,0 +1,10 @@
+<h2>{{ "whiskey + cerveja + jogos = rock and roll" | camelCase }}</h2>
+
+<input #inputwhiskey type="text" />
+<button (click)="onAddWhiskey(inputwhiskey.value)">Adicionar</button>
+
+<p>Preço {{ 2.456 | currency: "BRL":"symbol" }}</p>
+
+<ul>
+  <li *ngFor="let item of whiskeys">{{ item }}</li>
+</ul>

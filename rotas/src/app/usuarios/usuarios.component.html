@@ -1,0 +1,19 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile rowspan="2">
+    <div fxLayout="column" style="flex-grow:1;">
+      <h2>Usuários</h2>
+      <div class="containerDiv">
+        <mat-list *ngFor="let u of usuarios">
+          <mat-list-item [routerLink]="[u.id]"> {{ u.nome }}</mat-list-item>
+          <mat-divider></mat-divider>
+        </mat-list>
+      </div>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile rowspan="2">
+    <div fxLayout="column" fxLayoutAlign="center" style="margin: 10px;">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>

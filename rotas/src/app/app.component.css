@@ -1,0 +1,15 @@
+.navbar-header {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background: #673ab7;
+}
+
+.navbar-header a {
+  color: white;
+}
+
+nav {
+  display: block;
+}

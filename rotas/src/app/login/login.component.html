@@ -1,0 +1,26 @@
+<mat-card>
+  <mat-card-title>Login</mat-card-title>
+  <br />
+  <mat-card-content>
+    <p>
+      <mat-form-field appearance="legacy">
+        <mat-label>Usuário</mat-label>
+        <input matInput [(ngModel)]="loginInfo.user" />
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field appearance="legacy">
+        <mat-label>Senha</mat-label>
+        <input matInput type="password" [(ngModel)]="loginInfo.pass" />
+      </mat-form-field>
+    </p>
+
+    <br />
+    <div class="btnlogin">
+      <button mat-button color="primary" type="submit" (click)="login()">
+        Login
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>
