@@ -122,10 +122,10 @@
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-9.0.6.tgz#d0c26f9e103948989416f7d8c26b5f5fd298d4a4"
   integrity sha512-LNtzUrrjqLTlZyhuAEV0sdEV0yi52Ih/p+ozCr/ivhTSSemcPbniTBbJlFZO4NJ2BuS2iEXkXwZs3mm8Fvx5Sg==
 
-"@angular/cdk@^9.1.1":
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-9.1.2.tgz#c22271bc0cad509f9f08e4e6b5ceeaefd06237be"
-  integrity sha512-x5niyE0iYrbVtLYjJFw2MoS+OoSbJn6y/G2pNScviDwyjBBgqRh4YgUox2kMhdPumkvuh+eA6blZoE9qpvSo2w==
+"@angular/cdk@^9.1.2":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-9.2.4.tgz#8413958bd275e4c34be3b96f56444671dd30ba93"
+  integrity sha512-iw2+qHMXHYVC6K/fttHeNHIieSKiTEodVutZoOEcBu9rmRTGbLB26V/CRsfIRmA1RBk+uFYWc6UQZnMC3RdnJQ==
   optionalDependencies:
     parse5 "^5.0.0"
 
@@ -203,10 +203,10 @@
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-9.0.6.tgz#484bbaab9c08e72be31ca741e12f1b134d641c85"
   integrity sha512-lyEYYsBXFhXKu3aT6XkKBmmf4c59lb/C6C15q4Dl8BW/wIuA/mNLosDKLnd/jCS0VpcY4v0HJRKg9SCopa8BhQ==
 
-"@angular/material@^9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-9.1.1.tgz#aabd148afac694dcb718ed190c0ac44042c92b56"
-  integrity sha512-XtfVTTzvLvw90g1sG8mV0kzkfnp2g7I/kUgwng7Zv3NG1Tzt/wEXVe6ovI45B/8qpN6i/7f2aCl7Gz4KTldAyA==
+"@angular/material@^9.1.2":
+  version "9.2.4"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-9.2.4.tgz#2666ef606fbb88d60f8e2f18c5e4f94a3dd572d8"
+  integrity sha512-LkoTXE6B0slvMhvfZDdPWaz4yaYLkaAp5VSPunI9pxGsPxzqEV9e210wC1/sjG/76Nk8Ep7/2z9XKac8Q9bMwA==
 
 "@angular/platform-browser-dynamic@~9.0.5":
   version "9.0.6"
@@ -1500,9 +1500,9 @@ async-limiter@~1.0.0:
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
 async@^2.5.0, async@^2.6.2:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
 
@@ -4996,9 +4996,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^3.0.0:
   version "3.0.0"
